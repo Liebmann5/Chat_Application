@@ -1,0 +1,23 @@
+My 8080 localhost wouldn't ever pass any tests then I realized the page kept
+loading this message
+
+    EDB
+    postgres
+
+    Server is up and running.
+
+Turns out I had a postgres server running there all the time. I also realized
+this because I tried to submit URL while my server wasn't on and the tests
+on FCC failed of course but when I went to reload the page there was no error
+and the page still had that message which is when I realized 'postgres'.
+Dumb crap!!
+https://stackoverflow.com/questions/39632667/how-do-i-kill-the-process-currently-using-a-port-on-localhost-in-windows
+
+
+
+
+
+
+
+Also crap wouldn't work on Port 8080 but on 3000 absolutely no mistakes!!!
+SSSOOooooooo in the .env file I switched 8080 -> 3000!!

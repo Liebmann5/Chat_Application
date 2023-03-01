@@ -1,0 +1,51 @@
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp
+$ git clone --depth=1 https://github.com/Liebmann5/Chat_Application.git
+Cloning into 'Chat_Application'...
+warning: You appear to have cloned an empty repository.
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp
+$ cd Chat_Application
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application (master)
+$ git remote add upstream https://github.com/freeCodeCamp/boilerplate-advancednode.git
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application (master)
+$ git remote -v
+origin  https://github.com/Liebmann5/Chat_Application.git (fetch)
+origin  https://github.com/Liebmann5/Chat_Application.git (push)
+upstream        https://github.com/freeCodeCamp/boilerplate-advancednode.git (fetch)
+upstream        https://github.com/freeCodeCamp/boilerplate-advancednode.git (push)
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application (master)
+$ git pull
+Your configuration specifies to merge with the ref 'refs/heads/master'
+from the remote, but no such ref was fetched.
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application (master)
+$ git pull https://github.com/freeCodeCamp/boilerplate-advancednode.git
+remote: Enumerating objects: 162, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (5/5), done.
+Receiving object2 (delta 1), reused 4 (delta 0), pack-reused 156Receiving objects:  73% (119/162)
+Receiving objects: 100% (162/162), 142.31 KiB | 1.85 MiB/s, done.
+Resolving deltas: 100% (68/68), done.
+From https://github.com/freeCodeCamp/boilerplate-advancednode
+ * branch            HEAD       -> FETCH_HEAD
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application (master)
+$ touch ZZ_Notes.txt
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application (master)
+$ rm ZZ_Notes.txt
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application (master)
+$ mkdir ZZ_Notes
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application (master)
+$ cd ZZ_Notes
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application/ZZ_Notes (master)
+$ touch GitHub_Notes.txt
+
+user@TriangularReflex MINGW64 ~/OneDrive/Documents/GitHub/FFC/ChatApp/Chat_Application/ZZ_Notes (master)
+$
